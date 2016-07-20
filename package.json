@@ -1,0 +1,21 @@
+{
+  "name": "ra-ticket-checker",
+  "version": "1.0.0",
+  "description": "Resident Advisor ticket checker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "horseman": "^0.2.1",
+    "node-horseman": "^2.8.2",
+    "nodemailer": "^1.5.0",
+    "phantomjs": "^1.9.18",
+    "xoauth2": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
